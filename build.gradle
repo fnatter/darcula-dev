@@ -1,0 +1,43 @@
+apply plugin: 'java'
+
+group 'com.github.ice1k'
+version '2018.2'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+tasks.withType(JavaCompile) {
+  options.encoding = 'UTF-8'
+}
+
+repositories {
+  mavenCentral()
+  flatDir {
+    dirs 'libs'
+  }
+}
+
+sourceSets {
+  main.java.srcDirs = ['src']
+  main.resources.srcDirs = ['res']
+  test.java.srcDirs = ['test']
+}
+
+configurations {
+  library
+}
+
+jar {
+  from {
+    configurations.library.collect { it.isDirectory() ? it : zipTree(it) }
+  }
+}
+
+dependencies {
+  library name: 'iconloader'
+  library name: 'forms-rt-minimized'
+  configurations.compile.extendsFrom configurations.library
+  compile group: 'org.jetbrains', name: 'annotations', version: '16.0.1'
+  testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+

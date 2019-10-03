@@ -1,0 +1,23 @@
+Source: darcula
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Felix Natter <fnatter@gmx.net>
+Build-Depends:
+ gradle,
+ debhelper (>= 12),
+ default-jdk,
+ junit,
+ libjetbrains-annotations-java
+Build-Depends-Indep: gradle-debian-helper 
+Standards-Version: 4.4.1
+Vcs-Git: https://github.com/fnatter/darcula-dev
+Vcs-Browser: https://github.com/fnatter/darcula-dev
+Homepage: https://github.com/fnatter/darcula-dev
+
+Package: darcula
+Architecture: all
+Depends: ${misc:Depends}
+Suggests:
+Description: The official Darcula Look and Feel for programming environments by Konstantin Bulenkov.
+Darcula is a Look-n-Feel for Java desktop applications.

@@ -1,0 +1,14 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: darcula
+Upstream-Contact: Tesla Ice Zhang <ice1000kotlin@foxmail.com>
+Source: https://github.com/ice1k/darcula
+
+Files: debian/*
+Copyright: 2019 Felix Natter <fnatter@gmx.net>
+License: Apache-2.0
+
+Files: *
+Copyright: 2013-2017 Konstantin Bulenkov <?@bulenkov.com>
+           2018 Tesla Ice Zhang <ice1000kotlin@foxmail.com>
+License: Apache-2.0
+

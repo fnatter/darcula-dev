@@ -1,4 +1,4 @@
-darcula (2018.2-1) UNRELEASED; urgency=medium
+darcula (2018.2+dfsg1-1) UNRELEASED; urgency=medium
 
   * Initial release. (Closes: #940868)
 

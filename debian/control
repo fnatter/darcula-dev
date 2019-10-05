@@ -6,6 +6,7 @@ Uploaders: Felix Natter <fnatter@gmx.net>
 Build-Depends:
  gradle,
  debhelper (>= 12),
+ maven-repo-helper,
  default-jdk,
  junit,
  libjetbrains-annotations-java
@@ -20,7 +21,7 @@ Homepage: https://github.com/fnatter/darcula-dev
 Package: darcula
 Architecture: all
 Depends:
- libiconloader-java
+ libiconloader-java,
  ${misc:Depends}
 Suggests:
 Description: The official Darcula Look and Feel for programming environments by Konstantin Bulenkov.

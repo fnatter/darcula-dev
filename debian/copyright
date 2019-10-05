@@ -2,6 +2,10 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: darcula
 Upstream-Contact: Tesla Ice Zhang <ice1000kotlin@foxmail.com>
 Source: https://github.com/ice1k/darcula
+Files-Excluded:
+  libs/*.jar
+  gradle/*
+  gradlew
 
 Files: debian/*
 Copyright: 2019 Felix Natter <fnatter@gmx.net>

@@ -24,5 +24,6 @@ Depends:
  libiconloader-java,
  ${misc:Depends}
 Suggests:
-Description: The official Darcula Look and Feel for programming environments by Konstantin Bulenkov.
- Darcula is a Look-n-Feel for Java desktop applications.
+Description: Dark Look and Feel for Java desktop applications.
+ Darcula is a Look-n-Feel for Java desktop applications and programming
+ environments by Konstantin Bulenkov.

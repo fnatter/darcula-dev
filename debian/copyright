@@ -7,12 +7,17 @@ Files-Excluded:
   gradle/*
   gradlew
 
-Files: debian/*
-Copyright: 2019 Felix Natter <fnatter@gmx.net>
-License: Apache-2.0
-
 Files: *
 Copyright: 2013-2017 Konstantin Bulenkov <?@bulenkov.com>
            2018 Tesla Ice Zhang <ice1000kotlin@foxmail.com>
 License: Apache-2.0
+
+Files: debian/*
+Copyright: 2019 Felix Natter <fnatter@gmx.net>
+License: Apache-2.0
+
+License: Apache-2.0
+ On Debian systems the full text of the Apache-2.0 license can be found in
+ /usr/share/common-licenses/Apache-2.0.
+
 

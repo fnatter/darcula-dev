@@ -1,3 +1,8 @@
+Description: Fix dependencies (forms-rt-minimized dropped), pull the rest from
+ /usr/share/java
+Author: Felix Natter <fnatter@gmx.net>
+Forwarded: not-needed
+Last-Update: 2019-10-09
 --- a/build.gradle
 +++ b/build.gradle
 @@ -11,9 +11,9 @@

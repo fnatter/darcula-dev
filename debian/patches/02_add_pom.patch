@@ -1,3 +1,8 @@
+Description: Add pom.xml (taken from maven.org)
+Author: Felix Natter <fnatter@gmx.net>
+Forwarded: no
+Last-Update: 2019-10-09
+
 --- /dev/null
 +++ b/pom.xml
 @@ -0,0 +1,22 @@
